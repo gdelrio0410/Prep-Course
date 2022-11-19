@@ -1,0 +1,23 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `for`: Un ciclo for es para repetir una o varias instrucciones un cierto numero de veces o hasta que una condición sea mentira
+
+* `&&`, `||`, `!`: Los operadores logicos nos ayudan a poder comapara mas de una condición con ciertos criteros
+El primer operador logico es && (and) o "y" su tabla de verdad es:
+condicion 1 | condicion 2 = resultado
+     v      |     v       =     v
+     v      |     f       =     f 
+     f      |     v       =     f
+     f      |     f       =     f   
+
+El segundo operador logico es || (or) o "o" su tabla de verdad es:
+condicion 1 | condicion 2 = resultado
+     v      |     v       =     v
+     v      |     f       =     v 
+     f      |     v       =     v
+     f      |     f       =     f   
+
+el tercer operador logico es ! (not) o "no" su tabla de verdad es:
+condicion 1  = resultado
+     !v      =    f
+     !f      =    v

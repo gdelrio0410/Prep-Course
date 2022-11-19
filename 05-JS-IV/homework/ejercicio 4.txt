@@ -1,0 +1,29 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Objetos: Es una colección de propiedades, y una propiedad es una asociación entre un nombre y un valor
+    
+    let person = {firstName:"John", lastName:"Doe", age:46};
+
+	* Propiedades: Se peuden definir como variables adjuntas a los objetos y definen las características del objeto
+
+	* Métodos: son funciones que podemos poner dentro de los objetos para realizar una cierta acciones
+
+	* Bucle `for…in`:Itera sobre todas las propiedades enumerables de un objeto 
+    
+    let object = { a: 1, b: 2, c: 3 };
+
+    for (let property in object) {
+        console.log(`${property}: ${object[property]}`);
+    }
+
+	* Notación de puntos vs notación de corchetes: tenemos 2 formas de acceder a las propiedades o métodos de un objeto
+    Notación de puntos: general mente es la notación mas usada por que es fácil de Implementar
+    persona.edad
+    persona.intereses[1]
+    persona.bio()
+
+    notación de corchetes: cuando se tengan q trabajar con variables el bracket notation en la mejor opción
+    persona['edad']
+    persona['nombre']['pila']  
+
+    cada uno tiene sus pros y contras

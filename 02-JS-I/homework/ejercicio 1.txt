@@ -1,0 +1,12 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+ * Variables: En programacion tenemos varios tipos de datos por ejemplo enteros, flotantes, booleanos, entre otros y la manera de guardar estos tipos de datos son en variables para poderlas usar en otras partes del codigo y poder remplazar el valor por ejemplo.
+ 
+ * Strings: Tambien conocidas como cadenas es un conjunto de caracteres por ejemplo una palabra y se puede poner entre comillas "" o comillas simples ''
+
+ * Funciones (argumentos, `return`): Una función es para guardar una parte del codigo cuando se reutiliza en varias ocaciones sin tener que ser repetitivo 
+ 
+ * Declaraciones `if`: Funciona para poder evaluar una condición si es verdadera o falsa y en el caso que sea verdadera realizar una tarea y si no simplemente se lo salta
+ 
+ * Valores booleanos (`true`, `false`): Los valores booleanos solo tienen 2 estados verdadero o falso por ejemplo en un videojuego podemos decir si un jugador esta vivo o no con un simple booleano de true que es verdad o false que es falso
+
